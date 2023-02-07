@@ -1,0 +1,18 @@
+{
+  "name": "@top-fifty/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind 'vitest'",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "sst": "^2.0.1",
+    "ts-jest": "^29.0.5",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "sst": "^2.0.1"
+  }
+}
